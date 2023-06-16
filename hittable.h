@@ -4,7 +4,7 @@
 #define HITTABLE_H
 
 #include "ray.h"
-#include "material.h"
+class material;
 
 struct hit_record {
     point3 p;
